@@ -1,0 +1,15 @@
+git switch master
+
+git pull
+
+git switch -c JIRA-146-logout-sneha
+
+(Create logout.txt)
+
+git status
+
+git add logout.txt
+
+git commit -m "Implemented Logout Feature"
+
+git push -u origin JIRA-146-logout-sneha
